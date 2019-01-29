@@ -1,0 +1,17 @@
+.btn{ position: relative; }
+.content { position: absolute; }
+
+.top { top: 0;}
+.bottom { top: 900px;}
+.top { top: 0px;}
+.btn:hover .top { top: -900px;}
+.bottom { top: 900px;}
+.btn:hover .bottom { top: 0px;}
+.content {
+position: relative;
+transition: top 0.3s;
+overflow: hidden;
+}
+
+
+
